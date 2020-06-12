@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'redes';
+    src: url('../fonts/Social.otf')
+}
+
+@font-face{
+    font-family: 'nav';
+    src: url('../fonts/Neufreit.otf')
+}
+
+@font-face{
+    font-family: 'cuerpo';
+    src: url('../fonts/Roboto-Regular.ttf')
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'cuerpo';
+}
+
+.navegador, .derechos{
+    font-family: 'nav';
+}
+
+.cuerpo{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+}
+
+.titulo{
+    text-shadow: 2px 2px 2px black;
+}
+
+footer{text-align: center;}
+.sociales{
+    font-family: 'redes';
+    font-size: 2rem;
+    color: crimson;
+}
+.sociales>ul{
+    list-style: none;
+    text-decoration: none;
+}
+.sociales>ul>li{
+    display: inline-block;
+}
